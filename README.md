@@ -3,7 +3,7 @@ Apache Cassandra Treemap
 
 ### Run application
 
-To run the application, it is necessary to install Flask. In addition, you need arrows for the following environment variables:
+To run the application, it is necessary to install Flask. In addition, you need to set the following environment variables:
 
 For the Posix environment:
 ```bash
