@@ -6,7 +6,15 @@ app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 
 @app.route("/")
 def index():
+    return render_template('home.html')
+
+@app.route("/v1")
+def treemap_v1():
     return render_template('index.html')
+
+@app.route("/v2")
+def treemap_v2():
+    return render_template('index2.html')
 
 @app.route("/about")
 def about():
